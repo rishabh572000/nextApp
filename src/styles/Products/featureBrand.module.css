@@ -1,0 +1,61 @@
+.heading{
+  margin: 2rem;
+}
+.heading ::before{
+  content: '';
+  width: 100px;
+  height: 2px;
+  border: 1px solid red;
+  transform: rotate(180);
+}
+.heading h2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.FeatureBrand{
+  background: rgb(202, 148, 148);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 15rem;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper{
+  text-align: center;
+  font-size: 18px;
+  height: 15rem;
+  background: rgb(173, 173, 173);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiperSlide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: aliceblue;
+}
+.swiperSlide .image{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
